@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+body {
+  background-color: #22232a;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+.site_container {
+    margin: 0 auto;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 25px;
+  color: #bebab4;
+  font-size: large;
+}
+
+.photo_and_name_section {
+  display: flex;
+  gap: 140px;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 100px 0 40px 140px;
+}
+
+.cv_photo {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.cv_name {
+  font-weight: 300;
+  font-size: xxx-large;
+  color: #f7f7f6;
+}
+
+.job {
+  color: #bebab4;
+  font-weight: 300;
+  font-size: larger;
+}
+
+hr {
+  width: 90%;
+  color: #bebab4;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.contact_information_section {
+  width: 90%;
+  background-color: #46413b;
+  margin: 0 auto;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.contact_information_header {
+  font-weight: 300;
+  font-size: x-large;
+  color: #f7f7f6;
+  padding: 30px;
+}
+
+.contact_information_description {
+  color: #bebab4;
+  font-weight: 300;
+  font-size: larger;
+  padding: 20px;
+}
+
+.contact_information_item {
+  color: #bebab4;
+  margin-right: 20px;
+}
