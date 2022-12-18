@@ -15,11 +15,12 @@
 
         <nav>
             <ul class="navigation">
-                <li class="navigation_item">Contact information</li>
-                <li class="navigation_item">Skills and Proficiency</li>
-                <li class="navigation_item">About Myself</li>
-                <li class="navigation_item">Languages</li>
-                <li class="navigation_item">Education</li>
+                <li><a class="navigation_item" href="#contact_information_section">Contact information</a></li>
+                <li><a class="navigation_item" href="#skills_and_proficiency_section">Skills and Proficiency</a></li>
+                <li><a class="navigation_item" href="#about_myself_section">About Myself</a></li>
+                <li><a class="navigation_item" href="#languages_section">Languages</a></li>
+                <li><a class="navigation_item" href="#education_section">Education</a></li>
+                <li><a class="navigation_item" href="#code_example_section">Code example</a></li>
             </ul>
         </nav>
 
@@ -34,7 +35,7 @@
 
             <hr>
 
-            <div class="cv_section">
+            <div class="cv_section" id="contact_information_section">
                 <h2 class="cv_sections_header">Contact information:</h2>
                 <div class="cv_sections_description">
                     <p>Phone: +375292639003</p>
@@ -46,7 +47,7 @@
                 </div>
             </div>
 
-            <div class="cv_section">
+            <div class="cv_section" id="skills_and_proficiency_section">
                 <h2 class="cv_sections_header">Skills and Proficiency:</h2>
                 <ul class="cv_skills_list">
                     <li class="cv_skills_list_item">HTML5</li>
@@ -58,7 +59,7 @@
                 </ul>
             </div>
 
-            <div class="about_myself_section">
+            <div class="about_myself_section" id="about_myself_section">
                 <h2 class="cv_sections_header">About Myself:</h2>
                 <p class="cv_about_myself_section_desctiption">I would like to find a company where I will able to
                     improve my technical skills and grow as a
@@ -67,7 +68,7 @@
                     in jurisprudence.</p>
             </div>
 
-            <div class="cv_section">
+            <div class="cv_section" id="languages_section">
                 <h2 class="cv_sections_header">Languages:</h2>
                 <ul class="cv_languages_list">
                     <li class="cv_skills_list_item">English - Intermediate</li>
@@ -76,7 +77,7 @@
                 </ul>
             </div>
 
-            <div class="cv_section">
+            <div class="cv_section" id="education_section">
                 <h2 class="cv_sections_header">Education:</h2>
                 <div class="cv_education_section_desctiption">
                     <div>
@@ -103,6 +104,33 @@
                         <p class="education_sections_description">2011-2016 Bachelor of Law Faculty</p>
                     </div>
                 </div>
+            </div>
+
+            <div class="code_example_section" id="code_example_section">
+                <h2 class="cv_sections_header">Code example:</h2>
+                <pre>
+                  <code class="code_example">
+    function compress(string) {
+        let compressString = "";
+                
+        for (let i = 0; i &lt; string.length; i++) {
+            let counter = 1;
+            while (string[i + 1] === string[i]) {
+                counter++;
+                i++;
+            }
+            if (counter === 1) {
+                compressString += string[i];
+            } else {
+                compressString += string[i] + counter;
+            }
+        }
+                
+        return string + " => " + compressString;
+    }
+                </code>  
+                </pre>
+
             </div>
 
             <hr>
