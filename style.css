@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #22232a;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+.site_container {
+  margin: 0 auto;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 25px;
+  color: #bebab4;
+  font-size: large;
+}
+
+.navigation_item {
+  position: relative;
+  text-decoration: none;
+  color: #bebab4;
+  font-weight: 300;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.navigation_item:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #bebab4;
+  content: "";
+  transition: width 0.3s ease-out;
+}
+
+.navigation_item:hover:after,
+.navigation_item:focus:after {
+  width: 100%;
+}
+
+.photo_and_name_section {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 70px 0 40px 140px;
+}
+
+.cv_photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid #f7f7f6;
+}
+
+.cv_name {
+  font-weight: 300;
+  font-size: xxx-large;
+  color: #f7f7f6;
+}
+
+.job {
+  color: #bebab4;
+  font-weight: 300;
+  font-size: larger;
+}
+
+hr {
+  width: 90%;
+  color: #bebab4;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.cv_section {
+  width: 90%;
+  background-color: #46413b;
+  margin: 0 auto;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.cv_sections_header {
+  font-weight: 300;
+  font-size: x-large;
+  color: #f7f7f6;
+  padding: 30px;
+  padding-bottom: 10px;
+}
+
+.cv_sections_description {
+  color: #bebab4;
+  font-weight: 300;
+  font-size: larger;
+  padding: 20px;
+}
+
+.contact_information_item {
+  color: #bebab4;
+  margin-right: 20px;
+}
+
+.cv_skills_list {
+  color: #bebab4;
+  font-weight: 300;
+  font-size: larger;
+  padding: 40px;
+}
+
+.cv_skills_list_item {
+  margin-bottom: 10px;
+}
+
+.cv_about_myself_section_desctiption {
+  color: #bebab4;
+  font-weight: 300;
+  font-size: larger;
+  padding: 20px;
+  width: 60%;
+  text-align: justify;
+}
+
+.about_myself_section {
+  display: flex;
+  width: 90%;
+  background-color: #46413b;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.cv_languages_list {
+  color: #bebab4;
+  font-weight: 300;
+  font-size: larger;
+  padding: 40px;
+}
+
+.cv_education_section_desctiption {
+  color: #bebab4;
+  font-weight: 300;
+  font-size: larger;
+  padding: 20px;
+  width: 60%;
+}
+
+.education_sections_header {
+  font-weight: 200;
+  font-size: large;
+  color: #f7f7f6;
+}
+
+.education_sections_description {
+  color: #bebab4;
+  font-weight: 300;
+  font-size: medium;
+}
+
+.education_sections_links {
+  color: #bebab4;
+  font-weight: 300;
+  font-size: medium;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+
+.git_hub_logo {
+  width: 100px;
+  height: auto;
+}
+
+.footer_date {
+  font-weight: 400;
+  font-size: medium;
+  color: #f7f7f6;
+}
+
+.code_example_section {
+  width: 90%;
+  background-color: #46413b;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.code_example {
+  color: #bebab4;
+  font-weight: 300;
+  font-size: larger;
+  padding: 20px;
+}
+
+@media screen and (max-width: 890px) {
+  .navigation_item {
+    font-size: small;
+  }
+
+  .navigation {
+    gap: 10px;
+  }
+
+  .cv_photo {
+    width: 200px;
+    height: 200px;
+  }
+
+  .cv_name {
+    font-size: x-large;
+  }
+
+  .job {
+    font-size: medium;
+  }
+
+  .photo_and_name_section {
+    gap: 50px;
+    margin: 40px;
+  }
+
+  .cv_sections_header {
+    font-size: large;
+    margin: 0;
+    padding-bottom: 0;
+  }
+
+  .cv_sections_description {
+    font-size: medium;
+  }
+
+  .cv_skills_list {
+    font-size: medium;
+    padding: 0 0 20px 40px;
+  }
+
+  .cv_about_myself_section_desctiption {
+    font-size: medium;
+    margin: 0;
+    width: 90%;
+  }
+
+  .cv_skills_list_item {
+    font-size: medium;
+  }
+
+  .cv_languages_list {
+    padding: 0 0 20px 40px;
+  }
+
+  .education_sections_header {
+    font-size: medium;
+  }
+
+  .education_sections_description {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navigation {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .code_example {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .code_example {
+    font-size: x-small;
+  }
+}
