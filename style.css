@@ -7,7 +7,7 @@ body {
 }
 
 .site_container {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .navigation {
@@ -55,23 +55,25 @@ hr {
   margin-bottom: 60px;
 }
 
-.contact_information_section {
+.cv_section {
   width: 90%;
   background-color: #46413b;
   margin: 0 auto;
   display: flex;
   justify-content: start;
   flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
-.contact_information_header {
+.cv_sections_header {
   font-weight: 300;
   font-size: x-large;
   color: #f7f7f6;
   padding: 30px;
+  padding-bottom: 10px;
 }
 
-.contact_information_description {
+.cv_sections_description {
   color: #bebab4;
   font-weight: 300;
   font-size: larger;
@@ -81,4 +83,39 @@ hr {
 .contact_information_item {
   color: #bebab4;
   margin-right: 20px;
+}
+
+.cv_skills_list {
+  color: #bebab4;
+  font-weight: 300;
+  font-size: larger;
+  padding: 40px;
+}
+
+.cv_skills_list_item {
+  margin-bottom: 10px;
+}
+
+.cv_about_myself_section_desctiption {
+  color: #bebab4;
+  font-weight: 300;
+  font-size: larger;
+  padding: 20px;
+  width: 60%;
+}
+
+.about_myself_section {
+  display: flex;
+  width: 90%;
+  background-color: #46413b;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.cv_languages_list {
+  color: #bebab4;
+  font-weight: 300;
+  font-size: larger;
+  padding: 40px;
 }
