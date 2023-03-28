@@ -151,7 +151,7 @@
                   <code class="code_example">
     function compress(string) {
         let compressString = "";
-                
+
         for (let i = 0; i &lt; string.length; i++) {
             let counter = 1;
             while (string[i + 1] === string[i]) {
@@ -164,7 +164,7 @@
                 compressString += string[i] + counter;
             }
         }
-                
+
         return string + " =&gt; " + compressString;
     }
                 </code>
