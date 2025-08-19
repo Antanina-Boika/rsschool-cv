@@ -52,4 +52,3 @@ Experience in building SPA, using of Git, Sass, Figma, Previous experience in ju
 ##### БГУ
 
 2011-2016 Бакалавриат юридического факультета
-
