@@ -1,0 +1,122 @@
+/* @font-face {
+    font-family: "Montserrat";
+    src: url("assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("assets/fonts/Poppins/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family: "DM-Sans";
+    src: url("assets/fonts/DM-Sans/DMSans-VariableFont_opsz\,wght.ttf");
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #464a4e;
+}
+
+.profession-name {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  background-color: #d5dee6;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  font-family: Montserrat;
+  color: #464a4e;
+}
+
+.profile {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 40px;
+    font-family: Montserrat;
+}
+
+.profile-text {
+    background-color: #d5dee6;
+    padding: 15px;
+    min-width: 60%;
+}
+
+.photo {    
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid #f7f7f6;
+}
+
+.profession-name {
+    font-size: medium;
+}
+
+.left-right-main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 40px;
+    flex-direction: row;
+    margin-top: 30px;
+    font-family: Poppins;
+    font-size: small;
+    line-height: normal;
+    
+}
+
+.left-container {
+    background-color: #d5dee6;
+    width: 40%;
+    padding: 3%;
+}
+
+.right-container {
+    width: 50%;
+    padding: 3%;
+}
+
+.contacts-container {
+    font-family: Montserrat;
+    font-size: small;
+}
+
+.main-section-links {
+   color: #464a4e;
+   text-decoration: none;
+}
+
+.left-right-main-container h2 {
+    font-family: DM-Sans;
+    margin-top: 30px;
+}
+
+.language-description {
+    font-weight: 600;
+}
+
+.about-me-title {
+    margin-top: 0;
+}
