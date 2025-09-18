@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://Antanina-Boika.github.io/rsschool-cv/cv
